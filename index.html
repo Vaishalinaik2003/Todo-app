@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo App with Priority</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Todo App</h1>
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <select id="taskPriority">
+            <option value="High">High</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="addBtn">Add</button>
+        <button id="clearBtn">Clear All</button>
+    </div>
+    <p id="taskCount">Tasks left: 0</p>
+    <ul id="taskList"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
